@@ -1,0 +1,46 @@
+.lista-restaurantes{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.restaurant-card {
+    width: 40%;
+    max-width: 367px;
+    height: 100px;
+    display: flex;
+    background: white;
+    box-shadow: 0px 2px 4px #00000029;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+}
+
+.image-restaurant img{
+    width: 100%;
+    margin: -20px auto;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w33{
+    width: 30%;
+}
+
+.restaurant-info{
+   margin-left: 30px;
+}
+
+.restaurant-info .name{
+    font-size: 18px;
+    color: #404040;
+
+}
+
+.restaurant-info .address{
+    font-size: 15px;
+    color:  gray;
+}
